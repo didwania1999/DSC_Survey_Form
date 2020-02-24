@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title style="color">Public Safety</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		
+</head>
+<body >
+	<h1 align="center">Survey on Public Safety</h1>
+	<p align="center">Please fill this form to let us know how we can improve public safety</p><br>
+	<div>
+	<form action="/action_page.php" target="_blank" id="form-wrapper" style="max-width:500px;margin:auto;" >
+		<div >
+			<label for="dropdown">Gender?</label><br>
+			<select class="select-elm" name="occupation" id="dropdown" required palceholder="Gender">
+				<option >Select </option>
+				<option >Male</option>
+				<option >Female</option>
+				<option >Non-Binary</option>
+				<option >Custom</option>
+			</select>
+		</div>
+		<br>
+		<br>
+		<div >
+			<label for="number" id="number-label">Age:</label><br>
+			<input class="input-elm" type="number" name="age" id="number" max="100" min="12" placeholder="Your Age" required>
+		</div>
+		<div >
+			<label for="name" id="name-label">Profession:</label><br>
+			<input class="input-elm" type="text" name="name" id="name" required placeholder="Your Profession">
+		</div>
+		<div >
+			<p>Have you ever been harassed on some public transport place?</p>
+			<ul>
+				<li class="list-items"><input class="input-elm input-checkbox" type="checkbox" name="improvements" value="html5" id="checkbox-1"> <label for="checkbox-1">Lewd comments by a group of people</label></li>
+				<li class="list-items"><input class="input-elm input-checkbox" type="checkbox" name="improvements" value="css3" id="checkbox-2"> <label for="checkbox-2">Groping</label></li>
+				<li class="list-items"><input class="input-elm input-checkbox" type="checkbox" name="improvements" value="js" id="checkbox-3"> <label for="checkbox-1">Stalking</label></li>
+				<li class="list-items"><input class="input-elm input-checkbox" type="checkbox" name="improvements" value="js" id="checkbox-3"> <label for="checkbox-1">Molestation</label></li>
+				<li class="list-items"><input class="input-elm input-checkbox" type="checkbox" name="improvements" value="js" id="checkbox-3"> <label for="checkbox-1">NO</label></li>
+                
+			</ul>
+		</div>
+		<div >
+			<div>Do you ever feel the need to carry a bag to shield yoursef in crowded places?</div>
+			<ul>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="a" value="1" id="radio-1"> <label for="radio-1">Yes</label></li>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="a" value="2" id="radio-2"> <label for="radio-2">No</label></li>
+			</ul>
+		</div>
+		<div >
+			<div>Would you rather take stairs or crowded elevator>?</div>
+			<ul>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="3" id="radio-3"> <label for="radio-3">Stairs</label></li>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="4" id="radio-4"> <label for="radio-4">Elevator</label></li>
+			</ul>
+		</div>
+		<div >
+			<div>Do you check mirrors or corners of a trial room before changing?</div>
+			<ul>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="c" value="1" id="radio-1"> <label for="radio-1">Stairs</label></li>
+				<li class="list-items"><input class="input-elm input-radio" type="radio" name="c" value="2" id="radio-2"> <label for="radio-2">Elevator</label></li>
+			</ul>
+		</div>
+		<div >
+			<label for="more-improvements">Do you feel comfortable using common washrooms?If no,why?</label><br>
+			<textarea class="textarea-elm" name="improvements-list" id="more-improvements" rows="4" cols="100"></textarea>
+		</div>
+		<button class="button-elm" type="hover" id="submit" background-color=#AC77B3;>Submit Form</button>
+     
+	</form>
+	</div>
+	<p>For more information </p>
+	<a href="https://www.sciencedirect.com/science/article/pii/S038611121460159X">Click Here!</a>
+</body>
+</html>
